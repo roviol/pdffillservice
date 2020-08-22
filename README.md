@@ -1,16 +1,27 @@
 # pdffillservice
 Flask Web Service for fill pdf form
 
-## Ejecutar
+## Setup
 
 ```bash
-
+git clone https://github.com/roviol/pdffillservice
 docker-compose build
 docker-compose up
-
 ```
 
-## Uso
+Or
+
+```bash
+docker push roviol/pdffillservice:latest
+```
+
+
+
+## Use
+###Browser
+
+Open URL http://127.0.0.1:5000/pdf
+
 ### php
 ```php
 <?php
