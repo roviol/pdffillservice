@@ -12,15 +12,13 @@ docker-compose up
 Or
 
 ```bash
-docker push roviol/pdffillservice:latest
+docker run --rm --name pdffill -p "5000:5000" -v ./tmp:/app/tmp roviol/pdffillservice:latest
 ```
-
-
 
 ## Use
 ###Browser
 
-Open URL http://127.0.0.1:5000/pdf
+Open URL http://127.0.0.1:5000/
 
 ### php
 ```php
